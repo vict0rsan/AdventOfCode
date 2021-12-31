@@ -10,7 +10,7 @@ public class Utility {
         Scanner read = null;
 
         try {
-            File file = new File("src/code2021/data/day1data.txt");
+            File file = new File(pathName);
             read = new Scanner(file);
         } catch (IOException e){
             System.out.println("Error reading the data!");
